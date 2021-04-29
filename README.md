@@ -17,7 +17,21 @@ console.log(5)
 ```
 
 ### Answer
-// Your answer goes here.
+
+The numbers will be printed as follows:
+1
+5
+4
+3
+2
+
+1 and 5 are printed first respectively, according to their order in the code, and because they’re not printed in a setTimeOut function or a promise.
+
+4 is printed next because it’s a promise with a “thenable” value, so it follows the “then” to return the resolved value.
+
+3 is returned next because the printing is happening inside a setTimeout function, with no time specified in the parameters.
+
+Finally, 2 is returned because it’s also associated with a setTimeout function, but the value is printed after 5000 milliseconds.
 
 ## Javascript test: arrays
 
@@ -39,4 +53,4 @@ Provide your solution in the given file: [cssBattle.css](https://github.com/emig
 Provide a link to a personal project that you're proud of and happy to share with us. It can be anything from a component to a system.
 
 ### Link to project
-// Your link goes here.
+https://github.com/nablo1/DIT341-project
