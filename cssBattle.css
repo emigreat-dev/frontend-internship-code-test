@@ -4,6 +4,48 @@ Pick any css battle where the solution requires at least three html elements (or
 
 Submit the resulting css together with a link to the battle you chose.
 
-Link to css: (TODO: replace this text with the link)
+Link to css: https://cssbattle.dev/play/6
 
 */
+
+<div>
+  <div class="top-right-qr"></div>
+  <div class="top-left-qr"></div>
+  <div class="bottom-left-qr"></div>
+</div>
+
+<style>
+body {
+  background: #E3516E;
+}
+
+.top-right-qr{
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  right: 100px;
+  position: absolute;
+  background: #FADE8B;
+  border-top-right-radius: 100px;
+}
+
+.top-left-qr {
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  left: 100px;
+  position: absolute;
+  background: #51B5A9;
+  border-top-left-radius: 100px;
+}
+
+.bottom-left-qr {
+  width: 100px;
+  height: 100px;
+  bottom: 50px;
+  left: 100px;
+  position: absolute;
+  background: #F7F3D7;
+  border-bottom-left-radius: 100px;
+}
+</style>
