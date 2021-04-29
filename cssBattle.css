@@ -19,9 +19,12 @@ body {
   background: #E3516E;
 }
 
-.top-right-qr{
+.top-right-qr, .top-left-qr, .bottom-left-qr {
   width: 100px;
   height: 100px;
+}
+
+.top-right-qr{
   top: 50px;
   right: 100px;
   position: absolute;
@@ -30,8 +33,6 @@ body {
 }
 
 .top-left-qr {
-  width: 100px;
-  height: 100px;
   top: 50px;
   left: 100px;
   position: absolute;
@@ -39,9 +40,7 @@ body {
   border-top-left-radius: 100px;
 }
 
-.bottom-left-qr {
-  width: 100px;
-  height: 100px;
+.bottom-left-qr 
   bottom: 50px;
   left: 100px;
   position: absolute;
