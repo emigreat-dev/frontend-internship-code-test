@@ -40,7 +40,7 @@ body {
   border-top-left-radius: 100px;
 }
 
-.bottom-left-qr 
+.bottom-left-qr {
   bottom: 50px;
   left: 100px;
   position: absolute;
