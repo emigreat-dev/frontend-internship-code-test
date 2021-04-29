@@ -4,6 +4,39 @@ Pick any css battle where the solution requires at least three html elements (or
 
 Submit the resulting css together with a link to the battle you chose.
 
-Link to css: (TODO: replace this text with the link)
+Link to css: https://cssbattle.dev/play/4
 
 */
+
+<body>
+		<div class="block lower-block">
+		</div>
+		<div class="block upper-block">
+		</div>
+		<div class="block lower-block">
+		</div>
+	</body>
+	<style>
+	  body {
+		background: #62306D;
+		display: flex;
+		justify-content: center;
+		
+	  }
+	  .block{
+		width: 100px;
+		height: 100px;
+		background: #F7EC7D;
+
+	  }
+	  .upper-block{
+		border-radius: 50px 50px 0px 0px;
+		margin-top: 11%
+
+	  }
+	  .lower-block{
+		border-radius: 0px 0px 50px 50px;
+		margin-top: 37%
+
+	  }
+	</style>
